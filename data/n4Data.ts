@@ -29,19 +29,19 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'k21', char: '不', on: ['フ', 'ブ'], kun: [], meaning: 'бус, биш', strokes: 4, set: 3 },
     { id: 'k22', char: '物', on: ['ブツ', 'モツ'], kun: ['もの'], meaning: 'юм, зүйл', strokes: 8, set: 3 },
     { id: 'k23', char: '主', on: ['シュ'], kun: ['ぬし', 'おも'], meaning: 'эзэн, гол', strokes: 5, set: 3 },
-    { id: 'k24', char: '使', on: ['シ'], kun: ['つか.う'], meaning: 'ашиглах', strokes: 8, set: 3 },
-    { id: 'k25', char: '品', on: ['ヒン'], kun: ['しな'], meaning: 'бараа', strokes: 9, set: 3 },
-    { id: 'k26', char: '度', on: ['ド'], kun: ['たび'], meaning: 'зэрэг, удаа', strokes: 9, set: 3 },
-    { id: 'k27', char: '計', on: ['ケイ'], kun: ['はか.る'], meaning: 'тоолох', strokes: 9, set: 3 },
-    { id: 'k28', char: '京', on: ['キョウ', 'ケイ'], kun: ['みяко'], meaning: 'нийслэл', strokes: 8, set: 3 },
-    { id: 'k29', char: '世', on: ['セイ', 'セ'], kun: ['よ'], meaning: 'ертөнц, үе', strokes: 5, set: 3 },
+    { id: 'k24', char: '使', on: ['シ'], kun: ['つка.у'], meaning: 'ашиглах', strokes: 8, set: 3 },
+    { id: 'k25', char: '品', on: ['ヒн'], kun: ['шина'], meaning: 'бараа', strokes: 9, set: 3 },
+    { id: 'k26', char: '度', on: ['ド'], kun: ['таби'], meaning: 'зэрэг, удаа', strokes: 9, set: 3 },
+    { id: 'k27', char: '計', on: ['ケイ'], kun: ['хака.ру'], meaning: 'тоолох', strokes: 9, set: 3 },
+    { id: 'k28', char: '京', on: ['キョウ', 'ケイ'], kun: ['мияко'], meaning: 'нийслэл', strokes: 8, set: 3 },
+    { id: 'k29', char: '世', on: ['セイ', 'セ'], kun: ['йо'], meaning: 'ертөнц, үе', strokes: 5, set: 3 },
     { id: 'k30', char: '界', on: ['カイ'], kun: [], meaning: 'ертөнц, хүрээ', strokes: 9, set: 3 },
     // SET 4
-    { id: 'k31', char: '映', on: ['エイ'], kun: ['うつ.る'], meaning: 'тусгах', strokes: 9, set: 4 },
-    { id: 'k32', char: '画', on: ['ガ', 'カ'], kun: ['えが.く'], meaning: 'зураг, зураас', strokes: 8, set: 4 },
-    { id: 'k33', char: '考', on: ['コウ'], kun: ['かん가.える'], meaning: 'бодох', strokes: 6, set: 4 },
+    { id: 'k31', char: '映', on: ['エイ'], kun: ['уцу.ру'], meaning: 'тусгах', strokes: 9, set: 4 },
+    { id: 'k32', char: '画', on: ['ガ', 'カ'], kun: ['эга.ку'], meaning: 'зураг, зураас', strokes: 8, set: 4 },
+    { id: 'k33', char: '考', on: ['コウ'], kun: ['канга.еру'], meaning: 'бодох', strokes: 6, set: 4 },
     { id: 'k34', char: '海', on: ['カイ'], kun: ['уми'], meaning: 'далай', strokes: 9, set: 4 },
-    { id: 'k35', char: '教', on: ['キョウ'], kun: ['оши.える'], meaning: 'заах', strokes: 11, set: 4 },
+    { id: 'k35', char: '教', on: ['キョウ'], kun: ['оши.еру'], meaning: 'заах', strokes: 11, set: 4 },
     { id: 'k36', char: '近', on: ['キン'], kun: ['чика.и'], meaning: 'ойр', strokes: 7, set: 4 },
     { id: 'k37', char: '強', on: ['キョウ', 'гоу'], kun: ['цуйо.и'], meaning: 'хүчтэй', strokes: 11, set: 4 },
     { id: 'k38', char: '弱', on: ['жаку'], kun: ['йова.и'], meaning: 'сул', strokes: 10, set: 4 },
@@ -58,7 +58,7 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'k48', char: '左', on: ['са'], kun: ['хидари'], meaning: 'зүүн', strokes: 5, set: 5 },
     { id: 'k49', char: '駅', on: ['эки'], kun: [], meaning: 'өртөө', strokes: 14, set: 5 },
     { id: 'k50', char: '火', on: ['ка'], kun: ['хи'], meaning: 'гал', strokes: 4, set: 5 },
-    // SET 6 (Transportation & Movement)
+    // SET 6 (Transportation)
     { id: 'k51', char: '通', on: ['цуу'], kun: ['тоо.ру'], meaning: 'явах, нэвтрэх', strokes: 10, set: 6 },
     { id: 'k52', char: '止', on: ['ши'], kun: ['то.мару'], meaning: 'зогсох', strokes: 4, set: 6 },
     { id: 'k53', char: '歩', on: ['хо'], kun: ['ару.ку'], meaning: 'алхах', strokes: 8, set: 6 },
@@ -69,7 +69,7 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'k58', char: '始', on: ['ши'], kun: ['хажи.меру'], meaning: 'эхлэх', strokes: 8, set: 6 },
     { id: 'k59', char: '終', on: ['шуу'], kun: ['о.вару'], meaning: 'дуусах', strokes: 11, set: 6 },
     { id: 'k60', char: '待', on: ['таи'], kun: ['мацу'], meaning: 'хүлээх', strokes: 9, set: 6 },
-    // SET 7 (Living & Family)
+    // SET 7 (Living)
     { id: 'k61', char: '住', on: ['жуу'], kun: ['су.му'], meaning: 'амьдрах', strokes: 7, set: 7 },
     { id: 'k62', char: '所', on: ['шо'], kun: ['токоро'], meaning: 'газар', strokes: 8, set: 7 },
     { id: 'k63', char: '私', on: ['ши'], kun: ['ваташи'], meaning: 'би', strokes: 7, set: 7 },
@@ -80,7 +80,7 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'k68', char: '弟', on: ['теи'], kun: ['отоуто'], meaning: 'эрэмтэй дүү', strokes: 7, set: 7 },
     { id: 'k69', char: '妹', on: ['маи'], kun: ['имоуто'], meaning: 'эмэгтэй дүү', strokes: 8, set: 7 },
     { id: 'k70', char: '族', on: ['зоку'], kun: [], meaning: 'овог, гэр бүл', strokes: 11, set: 7 },
-    // SET 8 (Nature & Weather)
+    // SET 8 (Nature)
     { id: 'k71', char: '天', on: ['тен'], kun: ['ама'], meaning: 'тэнгэр', strokes: 4, set: 8 },
     { id: 'k72', char: '気', on: ['ки'], kun: [], meaning: 'сүнс, энерги', strokes: 6, set: 8 },
     { id: 'k73', char: '雨', on: ['у'], kun: ['амэ'], meaning: 'бороо', strokes: 8, set: 8 },
@@ -92,7 +92,7 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'k79', char: '夏', on: ['ка'], kun: ['натсу'], meaning: 'зун', strokes: 10, set: 8 },
     { id: 'k80', char: '秋', on: ['шуу'], kun: ['аки'], meaning: 'намар', strokes: 9, set: 8 },
     { id: 'k81', char: '冬', on: ['тоу'], kun: ['фую'], meaning: 'өвөл', strokes: 5, set: 8 },
-    // SET 9 (Colors & State)
+    // SET 9 (Colors)
     { id: 'k82', char: '色', on: ['шоку'], kun: ['иро'], meaning: 'өнгө', strokes: 6, set: 9 },
     { id: 'k83', char: '赤', on: ['секи'], kun: ['ака'], meaning: 'улаан', strokes: 7, set: 9 },
     { id: 'k84', char: '青', on: ['сеи'], kun: ['ао'], meaning: 'цэнхэр', strokes: 8, set: 9 },
@@ -101,7 +101,40 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'k87', char: '早', on: ['соу'], kun: ['хая.и'], meaning: 'эрт', strokes: 6, set: 9 },
     { id: 'k88', char: '遅', on: ['чи'], kun: ['осо.и'], meaning: 'орой', strokes: 12, set: 9 },
     { id: 'k89', char: '遠', on: ['ен'], kun: ['тоо.и'], meaning: 'хол', strokes: 13, set: 9 },
-    { id: 'k90', char: '近', on: ['кин'], kun: ['чика.и'], meaning: 'ойр', strokes: 7, set: 9 }
+    { id: 'k90', char: '近', on: ['кин'], kun: ['чика.и'], meaning: 'ойр', strokes: 7, set: 9 },
+    // SET 10 (Education & Learning)
+    { id: 'k91', char: '文', on: ['ブン', 'モン'], kun: ['ふみ'], meaning: 'өгүүлбэр, бичиг', strokes: 4, set: 10 },
+    { id: 'k92', char: '字', on: ['ジ'], kun: ['あざ'], meaning: 'үсэг, тэмдэг', strokes: 6, set: 10 },
+    { id: 'k93', char: '勉', on: ['ベン'], kun: ['つと.める'], meaning: 'хичээх', strokes: 10, set: 10 },
+    { id: 'k94', char: '習', on: ['シュウ'], kun: ['なら.う'], meaning: 'сурах', strokes: 11, set: 10 },
+    { id: 'k95', char: '研', on: ['ケン'], kun: ['と.ぐ'], meaning: 'судалгаа', strokes: 9, set: 10 },
+    { id: 'k96', char: '究', on: ['キュウ'], kun: ['きわ.める'], meaning: 'судлах', strokes: 7, set: 10 },
+    { id: 'k97', char: '質', on: ['シツ', 'シチ'], kun: [], meaning: 'чанар, асуулт', strokes: 15, set: 10 },
+    { id: 'k98', char: '問', on: ['モン'], kun: ['と.う'], meaning: 'асуух', strokes: 11, set: 10 },
+    { id: 'k99', char: '題', on: ['ダイ'], kun: [], meaning: 'сэдэв, асуудал', strokes: 18, set: 10 },
+    { id: 'k100', char: '答', on: ['トウ'], kun: ['こた.える'], meaning: 'хариулах', strokes: 12, set: 10 },
+    // SET 11 (Body Parts)
+    { id: 'k101', char: '頭', on: ['トウ'], kun: ['あたま'], meaning: 'толгой', strokes: 16, set: 11 },
+    { id: 'k102', char: '顔', on: ['ガン'], kun: ['かお'], meaning: 'нүүр', strokes: 18, set: 11 },
+    { id: 'k103', char: '声', on: ['セイ'], kun: ['こえ'], meaning: 'дуу хоолой', strokes: 7, set: 11 },
+    { id: 'k104', char: '指', on: ['シ'], kun: ['ゆび'], meaning: 'хуруу', strokes: 9, set: 11 },
+    { id: 'k105', char: '足', on: ['ソク'], kun: ['あし'], meaning: 'хөл', strokes: 7, set: 11 },
+    { id: 'k106', char: '手', on: ['シュ'], kun: ['て'], meaning: 'гар', strokes: 4, set: 11 },
+    { id: 'k107', char: '首', on: ['シュ'], kun: ['くび'], meaning: 'хүзүү', strokes: 9, set: 11 },
+    { id: 'k108', char: '目', on: ['モク'], kun: ['め'], meaning: 'нүд', strokes: 5, set: 11 },
+    { id: 'k109', char: '耳', on: ['ジ'], kun: ['みみ'], meaning: 'чих', strokes: 6, set: 11 },
+    { id: 'k110', char: '口', on: ['コウ'], kun: ['くち'], meaning: 'ам', strokes: 3, set: 11 },
+    // SET 12 (Daily Objects)
+    { id: 'k111', char: '図', on: ['ズ', 'ト'], kun: ['はか.る'], meaning: 'зураглал', strokes: 7, set: 12 },
+    { id: 'k112', char: '書', on: ['ショ'], kun: ['か.く'], meaning: 'бичих', strokes: 10, set: 12 },
+    { id: 'k113', char: '紙', on: ['シ'], kun: ['かみ'], meaning: 'цаас', strokes: 10, set: 12 },
+    { id: 'k114', char: '店', on: ['テン'], kun: ['みせ'], meaning: 'дэлгүүр', strokes: 8, set: 12 },
+    { id: 'k115', char: '品', on: ['ヒン'], kun: ['しな'], meaning: 'бараа', strokes: 9, set: 12 },
+    { id: 'k116', char: '売', on: ['バイ'], kun: ['う.る'], meaning: 'зарах', strokes: 7, set: 12 },
+    { id: 'k117', char: '買', on: ['バイ'], kun: ['か.う'], meaning: 'авах', strokes: 12, set: 12 },
+    { id: 'k118', char: '銀', on: ['ギン'], kun: [], meaning: 'мөнгө (silver)', strokes: 14, set: 12 },
+    { id: 'k119', char: '使', on: ['シ'], kun: ['つか.う'], meaning: 'ашиглах', strokes: 8, set: 12 },
+    { id: 'k120', char: '用', on: ['ヨウ'], kun: ['もち.いる'], meaning: 'хэрэглэх', strokes: 5, set: 12 }
   ],
   vocabulary: [
     { id: 'v1', jp: '案内', reading: 'あんない', meaning: 'газарчлах, танилцуулах', set: 1 },
@@ -124,11 +157,17 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'v18', jp: '十分', reading: 'じゅうぶん', meaning: 'хангалттай', set: 2 },
     { id: 'v19', jp: '都合', reading: 'つごう', meaning: 'боломж, нөхцөл', set: 2 },
     { id: 'v20', jp: '熱', reading: 'ねつ', meaning: 'халуун (өвчин)', set: 2 },
-    { id: 'v21', jp: '興味', reading: 'きょうみ', meaning: 'сонирхол', set: 3 },
-    { id: 'v22', jp: '経験', reading: 'けいけん', meaning: 'туршлага', set: 3 },
-    { id: 'v23', jp: '相談', reading: 'そうだん', meaning: 'зөвлөгөө, ярилцах', set: 3 },
-    { id: 'v24', jp: '失敗', reading: 'しっぱい', meaning: 'алдаа, уналт', set: 3 },
-    { id: 'v25', jp: '成功', reading: 'せいこう', meaning: 'амжилт', set: 3 }
+    // Adding more common N4 Vocab
+    { id: 'v21', jp: 'お見舞い', reading: 'おみまい', meaning: 'эргэж очих (өвчтөнг)', set: 3 },
+    { id: 'v22', jp: '駐車場', reading: 'ちゅうしゃじょう', meaning: 'зогсоол', set: 3 },
+    { id: 'v23', jp: '道具', reading: 'どうぐ', meaning: 'багаж хэрэгсэл', set: 3 },
+    { id: 'v24', jp: '原因', reading: 'げんいん', meaning: 'шалтгаан', set: 3 },
+    { id: 'v25', jp: '場所', reading: 'ばしょ', meaning: 'газар, байршил', set: 3 },
+    { id: 'v26', jp: '場合', reading: 'ばあい', meaning: 'тохиолдол', set: 3 },
+    { id: 'v27', jp: '関係', reading: 'かんけい', meaning: 'холбоо, харилцаа', set: 3 },
+    { id: 'v28', jp: '注意', reading: 'ちゅうい', meaning: 'анхаарал', set: 3 },
+    { id: 'v29', jp: '生活', reading: 'せいかつ', meaning: 'амьдрал', set: 3 },
+    { id: 'v30', jp: '経済', reading: 'けいざい', meaning: 'эдийн засаг', set: 3 }
   ],
   grammar: [
     { id: 'g1', pattern: 'Verb-られる (Passive)', meaning: 'Идэвхгүй хэв (Passive voice)', example: '泥棒に財布を盗まれました。', exampleMn: 'Хулгайчид хэтэвчээ хулгайлуулсан.', set: 1 },
@@ -141,10 +180,16 @@ export const n4Data: { kanji: Kanji[]; vocabulary: Vocabulary[]; grammar: Gramma
     { id: 'g8', pattern: '～てしまう', meaning: 'Бүрэн хийх / Харамсах', example: '宿題を忘れてしまいました。', exampleMn: 'Даалгавраа мартчихсан.', set: 2 },
     { id: 'g9', pattern: '～方 (かた)', meaning: 'Арга зам', example: '使い方がわかりません。', exampleMn: 'Яаж ашиглахыг мэдэхгүй байна.', set: 2 },
     { id: 'g10', pattern: '～すぎる', meaning: 'Хэтэрхий', example: '食べすぎました。', exampleMn: 'Хэтэрхий их идчихсэн.', set: 2 },
+    // More N4 Grammar
     { id: 'g11', pattern: '～やすい / ～にくい', meaning: 'Хийхэд амар / хэцүү', example: 'このペンは書きやすいです。', exampleMn: 'Энэ үзэг бичихэд амархан.', set: 3 },
     { id: 'g12', pattern: '～たほうがいい', meaning: 'Хийсэн нь дээр', example: '薬を飲んだほうがいいです。', exampleMn: 'Эм уусан нь дээр.', set: 3 },
     { id: 'g13', pattern: '～なければならない', meaning: 'Заавал хийх ёстой', example: '早く起きなければなりません。', exampleMn: 'Эрт босох ёстой.', set: 3 },
     { id: 'g14', pattern: '～かもしれない', meaning: 'Магадгүй', example: '雨が降るかもしれません。', exampleMn: 'Бороо орж магадгүй.', set: 3 },
-    { id: 'g15', pattern: '～はずだ', meaning: 'Байх ёстой (итгэлтэй)', example: '彼はもう着くはずです。', exampleMn: 'Тэр одоо ирэх ёстой.', set: 3 }
+    { id: 'g15', pattern: '～はずだ', meaning: 'Байх ёстой (итгэлтэй)', example: '彼はもう着くはずです。', exampleMn: 'Тэр одоо ирэх ёстой.', set: 3 },
+    { id: 'g16', pattern: '～ようだ', meaning: 'Юм шиг санагдах (хараад)', example: '外は暑いようです。', exampleMn: 'Гана халуун байгаа бололтой.', set: 4 },
+    { id: 'g17', pattern: '～そうです (Hearsay)', meaning: 'Гэнэ (сонсоход)', example: '明日雨が降るそうです。', exampleMn: 'Маргааш бороо орно гэнэ.', set: 4 },
+    { id: 'g18', pattern: '～そうです (Appearance)', meaning: 'Шинжтэй (харахад)', example: 'おいしそうです。', exampleMn: 'Амттай харагдаж байна.', set: 4 },
+    { id: 'g19', pattern: '～なさい', meaning: 'Тушаах (зөөлөн)', example: '早く寝なさい。', exampleMn: 'Эрт унт.', set: 4 },
+    { id: 'g20', pattern: '～ために', meaning: 'Төлөө, тулд', example: '健康のために歩きます。', exampleMn: 'Эрүүл мэндийнхээ төлөө алхдаг.', set: 4 }
   ]
 };
